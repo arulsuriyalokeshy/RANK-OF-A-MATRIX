@@ -14,8 +14,17 @@ Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 ### Step 4: 
 End the program
 ## Program:
+```python
+#Program to find the rank of a matrix.
+#Developed by:Suriya prakash.S
+#RegisterNumber:23013599
+import numpy as np
+matrix=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+rank=np.linalg.matrix_rank(matrix)
+print(rank)
+```
 ## Output:
-![math 2](https://github.com/arulsuriyalokeshy/RANK-OF-A-MATRIX/assets/149130151/e766fc82-2063-4a4b-8855-e6b6529e9f94)
+![image](https://github.com/arulsuriyalokeshy/RANK-OF-A-MATRIX/assets/149130151/6653c600-170b-4859-af4c-e454e6854643)
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
